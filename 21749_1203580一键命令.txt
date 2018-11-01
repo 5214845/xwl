@@ -1,0 +1,38 @@
+sudo -i
+chmod -R 777 //
+sudo -i
+yum update
+yum install -y net-tools
+
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+
+
+
+apt install unzip wget #Debian系统用这个
+or
+yum install unzip wget #Centos系统用这个
+
+wget http://vip.18cm.bid/ssh/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
+*不是被屏蔽的，就这样，直接用
+
+
+
+
+ I  P	    : 176.122.149.142
+ 端口	    : 2333
+ 密码	    : 456123abc
+ 加密	    : chacha20
+ 协议	    : auth_sha1_v4_compatible
+ 混淆	    : http_simple_compatible
+ 设备数限制 : 0(无限)
+ 单线程限速 : 0 KB/S
+ 用户总限速 : 0 KB/S
+ 禁止的端口 : 无限制 
+
+ 已使用流量 : 上传: 0 B + 下载: 0 B = 0 B
+ 剩余的流量 : 300.00 GB 
+ 用户总流量 : 300.00 GB 
+ SS    链接 : ss://Y2hhY2hhMjA6NDU2MTIzYWJjQDE3Ni4xMjIuMTQ5LjE0MjoyMzMz 
+ SS  二维码 : http://doub.pw/qr/qr.php?text=ss://Y2hhY2hhMjA6NDU2MTIzYWJjQDE3Ni4xMjIuMTQ5LjE0MjoyMzMz
+ SSR   链接 : ssr://MTc2LjEyMi4xNDkuMTQyOjIzMzM6YXV0aF9zaGExX3Y0OmNoYWNoYTIwOmh0dHBfc2ltcGxlOk5EVTJNVEl6WVdKag 
+ SSR 二维码 : http://doub.pw/qr/qr.php?text=ssr://MTc2LjEyMi4xNDkuMTQyOjIzMzM6YXV0aF9zaGExX3Y0OmNoYWNoYTIwOmh0dHBfc2ltcGxlOk5EVTJNVEl6WVdKag 
